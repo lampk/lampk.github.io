@@ -19,5 +19,11 @@ published: false
 ## Step 5: check 
 * > version
 * > packageStatus()
+
+## Problem with SSH/HTTPS remote URL
+* Check remote URL
+    + git remote -v
+* Change remote URL to SSH URL (https://help.github.com/articles/changing-a-remote-s-url/):
+    + git remote set-url origin <new URL>
     
     
