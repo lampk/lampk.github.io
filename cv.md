@@ -19,7 +19,14 @@ permalink: /cv/
 * 2011 - 2015: PhD in Life and Biomolecular Sciences (Biostatistics), The Open University, UK
 
 ### Awards & Fellowships
-### Profesional Experience
+* 2011: Erasmus Summer Programme Fellowship from Netherlands Institute for Health Science
+
+### Skills & Activities
+* Skills: Critical Care Medicine, Statistical Modeling, Data Analysis, Dengue, Phase III Clinical Trial, Prognosis, Prognostic Markers, Applied Biostatistics, Diagnosis, R Programming
+* Language: Vietnamese, English
+* Scientific Memberships: International Society for Clinical Biostatistics (2014 - 2015)
+* Peer-review: Plos Neglected Tropical Diseases, Plos One, Scientific Reports, The American Journal of Tropical Medicine and Hygiene
+
 ### Academic CV
 * [ORCID](http://orcid.org/0000-0001-7968-473X)
 * [SciENcv](http://www.ncbi.nlm.nih.gov/myncbi/phungkhanhlam/cv/71570/)
@@ -46,6 +53,3 @@ permalink: /cv/
 * 2012
     + __Dynamic prognostic models in dengue__, OUCRU dengue lab meeting, Ho Chi Minh City, November 2012, Oral
 
-### Thesis
-* MD thesis
-* PhD thesis
