@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Tobit regression for left censoring data
-status: process
+status: wait
 published: false
 ---
 
