@@ -5,7 +5,7 @@ status: process
 published: false
 ---
 
-# Create GitHub repository and set up with RStudio
+## Create GitHub repository and set up with RStudio
 
 Based on: [http://www.r-bloggers.com/rstudio-and-github/](http://www.r-bloggers.com/rstudio-and-github/)
 
@@ -23,11 +23,9 @@ git pull origin master
 git push origin master
 ```
     
-# Set up website for GitHub repository with RStudio
+## Set up website for GitHub repository with RStudio
 
-Based on: 
-    + [https://gist.github.com/cobyism/4730490](https://gist.github.com/cobyism/4730490) and 
-    + [http://www.damian.oquanta.info/posts/one-line-deployment-of-your-site-to-gh-pages.html](http://www.damian.oquanta.info/posts/one-line-deployment-of-your-site-to-gh-pages.html)
+Based on: [https://gist.github.com/cobyism/4730490](https://gist.github.com/cobyism/4730490) and [http://www.damian.oquanta.info/posts/one-line-deployment-of-your-site-to-gh-pages.html](http://www.damian.oquanta.info/posts/one-line-deployment-of-your-site-to-gh-pages.html)
 
 * Open Shell
 * Use commands:
