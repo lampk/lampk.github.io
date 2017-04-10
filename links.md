@@ -16,6 +16,10 @@ permalink: /links/
 * [Scraping web data in R](http://www.r-bloggers.com/scraping-web-data-in-r/)
 * [Using Google Analytics with R](https://developers.google.com/analytics/solutions/r-google-analytics#intro)
 
+# Links to science blogs
+* [Scientific American](https://www.scientificamerican.com)
+* [Spectrum: The leading source of news and expert opinion on autism research](https://spectrumnews.org)
+
 # Links to TED talks about statistics and art
 
 * [Chris Jordan: Turning powerful stats into art](https://www.ted.com/talks/chris_jordan_pictures_some_shocking_stats?language=en#t-662324)
