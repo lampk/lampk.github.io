@@ -19,6 +19,8 @@ permalink: /links/
 # Links to science blogs
 * [Scientific American](https://www.scientificamerican.com)
 * [Spectrum: The leading source of news and expert opinion on autism research](https://spectrumnews.org)
+* [UNESCO science popularization](http://www.unesco.org/new/en/natural-sciences/science-technology/sti-policy/science-popularization/)
+* [SOI](http://soi.com.vn)
 
 # Links to TED talks about statistics and art
 
