@@ -1,0 +1,73 @@
+---
+layout: post
+title: "Infographic"
+status: wait
+published: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Resources
+### Stories
+* [Storytelling with infographics: where to start - by Jen Underwood](http://www.jenunderwood.com/2015/11/23/storytelling-infographics-start/)
+
+### Personal blogs
+* [Edward Tufte](https://www.edwardtufte.com/tufte/)
+* [Stephen Few](https://www.perceptualedge.com/about.php)
+* [Column Five media](https://www.columnfivemedia.com)
+* [David McCandless](http://davidmccandless.com)
+* [alberto cairo](http://www.thefunctionalart.com)
+* [Cole Knaflic](http://www.storytellingwithdata.com)
+* [Datablog + Data visualizations - The Guardian](https://www.theguardian.com/news/datablog+technology/data-visualisation)
+* [+datavisualization.ch](https://datavisualization.ch)
+* [information is beautiful](http://www.informationisbeautiful.net)
+* [flowingdata](http://flowingdata.com)
+* [SA visual](https://blogs.scientificamerican.com/sa-visual/)
+* [cool infographics](http://coolinfographics.com)
+* [Gareth Cook](http://garethcook.net/best-american-infographics/)
+* [American Infographic](http://www.americaninfographic.com)
+* [Visual Storytelling Institute](http://www.visualstorytell.com/blog/what-is-visual-storytelling)
+
+
+### Books
+* Information Dashboard Design - Stephen Few
+* Envisioning information - Edward Tufte
+* Visual Explanations: Images and Quantities, Evidence and Narrative - Edward Tufte
+* Beautiful Evidence - Edward Tufte
+* The Visual Display of Quantitative Information - Edward Tufte
+* Designing Data Visualization - ?
+* Beautiful Visualization: Looking at data through the eyes of experts - ?
+* Advanced Presentations by Design - Andrew Abela
+* Show me the number: Designing Tables and Graphs to Enlighten - Stephen Few
+* Now you see it - Stephen Few
+* The functional art - alberto cairo
+* Infographics: the power of visual storytelling - Column five
+* Knowledge is beautiful - David McCandless
+* storytelling with data - Cole Nussbaumer knaflic 
+* The Power of Infographics: Using Pictures to Communicate and Connect With Your Audiences - Mark Smiciklas
+* Data Visualization: Principles and Practice - Alexandru C. Telea
+* A Picture Is Worth a Thousand Tables: Graphics in Life Sciences - Andreas Krause & Michael Oconnell
+* The Data Handbook: A Guide to Understanding the Organization and Visualization of Technical Data - Brand Fortner
+* Data Mining and Data Visualization - Calyampudi Radhakrishna Rao & Edward J. Wegman & Jeffrey L. Solka
+* Handbook of Data Visualization - Chun-Houh Chen & Wolfgang Karl Härdle & Antony Unwin
+* The Grammar of Graphics - Leland Wilkinson & D. Wills & D. Rope & A. Norton & R. Dubbs
+* Graphics of Large Datasets: Visualizing a Million - Antony Unwin & Martin Theus & Heike Hofmann
+* Interactive and Dynamic Graphics for Data Analysis: With R and GGobi - Dianne Cook & Deborah F. Swayne
+* Ggplot2: Elegant Graphics for Data Analysis - Hadley Wickham
+* Regression Graphics: Ideas for Studying Regressions Through Graphics - R. Dennis Cook
+* R Graphics - Paul Murrell
+* Cools infographics
+* Visualizing Time: Designing Graphical Representations for Statistical Data - Graham Wills
+* US History Through Infographics - Karen Latchana Kenney
+* Making Sense of Data: Designing Visualizations for Exploratory Data Analysis - Miriah Meyer & Danyel Fisher
+* Making Sense of Data I: A Practical Guide to Exploratory Data Analysis and Data Mining
+* Making Sense of Data II
+* Visual Insights: A Practical Guide to Making Sense of Data
+* Google Visualization API Essentials
+
+
+### Courses
+* Introduction to Infographics and Data Visualization - alberto cairo
+* [Pixar in a box - The art of storytelling](https://www.khanacademy.org/partner-content/pixar/storytelling)

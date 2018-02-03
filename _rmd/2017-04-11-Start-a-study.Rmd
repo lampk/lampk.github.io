@@ -1,0 +1,79 @@
+---
+layout: post
+title: Làm sao để tiến hành một nghiên cứu y khoa
+category: research
+status: wait
+published: false
+---
+
+## Vì sao cần bài viết này?
+
+## Các bước tiến hành một nghiên cứu y khoa
+
+* Xác định ý tưởng
+* Hồi cứu y văn
+* Viết đề cương nghiên cứu
+* Tìm nguồn tài trợ thực hiện nghiên cứu
+* Y đức
+* Thu thập số liệu
+* Phân tích kết quả
+* Trình bày và phổ biến kết quả
+
+## Xác định ý tưởng
+
+* Từ kinh nghiệm lâm sàng
+* Từ người hướng dẫn
+* Từ yêu cầu của xã hội
+
+* Từ những ý tưởng khái quát, chung chung đến những giả thuyết nghiên cứu, câu hỏi nghiên cứu, mục tiêu nghiên cứu cụ thể và khả thi.
+
+* Mục tiêu:
+** Tìm hiểu vấn đề: ước tính các thông số, mô tả vấn đề —> xây dựng giả thuyết
+** Chứng minh/bác bỏ giả thuyết: so sánh
+
+## Hồi cứu y văn
+
+* Mục đích
+* Các bước tiến hành
+
+## Viết đề cương nghiên cứu
+
+### Các phần chính trong một đề cương nghiên cứu
+* Mục tiêu nghiên cứu
+* Thiết kế nghiên cứu
+* Dân số nghiên cứu & chọn mẫu
+* Công cụ thu thập số liệu
+* Quản lý số liệu
+* Phương pháp phân tích số liệu
+* Y đức
+* Lịch trình thực hiện
+
+### Cơ sở và lý do thực hiện đề tài
+### Mục tiêu nghiên cứu
+
+Liệt kê các mục tiêu nghiên cứu chính và phụ, đi kèm với giả thuyết nghiên cứu. 
+
+### Thiết kế nghiên cứu
+
+* Nghiên cứu cắt ngang
+* Nghiên cứu bệnh chứng
+* Nghiên cứu đoàn hệ
+* Thử nghiệm lâm sàng (loại thử nghiệm lâm sàng?)
+* Tổng hợp hệ thống hoặc phân tích cộng gộp
+
+### Dân số nghiên cứu & chọn mẫu
+### Công cụ thu thập số liệu
+### Quản lý số liệu
+### Phương pháp phân tích số liệu
+### Y đức
+### Kế hoạch thực hiện
+
+## References
+* Clinical Research Manual: Practical Tools and Templates for Managing Clinical Research
+* A Practical Guide to Research: Design, Execution, and Publication
+* Practical Guide to Clinical Data Management, Third Edition
+* A Practical Guide for Health Researchers
+* Good Clinical Practice: Standard Operating Procedures for Clinical Researchers
+* Conducting GCP- Compliant Clinical Research: A Practical Guide
+* Designing clinical research
+

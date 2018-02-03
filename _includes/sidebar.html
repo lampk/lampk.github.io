@@ -1,0 +1,28 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" style="height:220px;width:220px;border-radius: 50%" align="middle"></a>
+    <div class="sidebar-about">
+      <h2>
+        <a href="{{ site.baseurl }}/">
+          {{ site.name_en }}
+        </a>
+      </h2>
+      <p style="color: #fff;">{{ site.title_en }}</p>
+      <h4 class="lead">{{ site.description }}</h4>
+    </div>
+    
+    <hr>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/">Home</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/about">About</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/blog">Blog</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/cv">Vitae</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}/links">Links</a>
+    </nav>
+    
+    <hr>
+
+    <p style="color: #fff; font-size: 15px">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
+</div>

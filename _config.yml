@@ -3,13 +3,16 @@
 #
 
 # Name of your site (displayed in the header)
-name: Phùng Khánh Lâm
+name_vn: Phùng Khánh Lâm
+title_vn: BS. TS.
+name_en: Phung Khanh Lam
+title_en: MD. PhD.
 
 # Short bio or description (displayed in the header)
-description: Scientist
+description: Scientist & Biostatistician
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/lampk.jpg
+avatar: /images/lampk2.jpg
 
 #
 # Flags below are optional
@@ -73,7 +76,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 

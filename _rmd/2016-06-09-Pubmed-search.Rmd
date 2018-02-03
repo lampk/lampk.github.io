@@ -1,0 +1,59 @@
+---
+layout: post
+title: Pubmed search with R
+status: wait
+published: false
+---
+
+## RISmed
+
+* [Tutorial](http://www.edii.uclm.es/~useR-2013/Tutorials/kovalchik/kovalchik_meta_tutorial.pdf), [CRAN](https://cran.r-project.org/web/packages/RISmed/index.html)
+
+```{r}
+## load library RISmed
+library(RISmed)
+
+## search for all intelligence related publications in pubmed 
+### specify search terms and database
+(fit <- EUtilsSummary("Intelligence[Mesh] OR  Intelligence Tests[Mesh]", db = "pubmed"))
+
+### extract the translated query
+QueryTranslation(fit) 
+
+### extract the number of matched records
+summary(fit)
+QueryCount(fit) 
+
+## search for all publications in pubmed for each year from 
+
+```
+
+
+
+* Create EUtilsSummary object for specified query
+* Retrieve matching records with EUtilsGet
+
+EUtilsSummary( [query], [db], [search.limits])
+library(RISmed)
+fit <- EUtilsSummary("rofecoxib[ti]+British Medical Journal[jo]", db = "pubmed")
+
+
+fetch <- EUtilsGet(fit)
+
+## rentrez
+ref: https://ropensci.org/tutorials/rentrez_tutorial.html
+
+## pubmed.mineR
+ref: http://link.springer.com/article/10.1007%2Fs12038-015-9552-2
+
+## medline trend
+ref: http://dan.corlan.net/medline-trend.html
+
+## Pubmed PubReMiner
+ref: http://rpsychologist.com/an-r-script-to-automatically-look-at-pubmed-citation-counts-by-year-of-publication
+
+## manually
+ref: http://rpsychologist.com/an-r-script-to-automatically-look-at-pubmed-citation-counts-by-year-of-publication
+
+## Leek
+ref: https://github.com/jtleek/swfdr
