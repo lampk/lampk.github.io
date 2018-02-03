@@ -7,8 +7,13 @@
           {{ site.name_en }}
         </a>
       </h2>
-      <p style="color: #fff;">{{ site.title_en }}</p>
-      <h4 class="lead">{{ site.description }}</h4>
+      <p style="color: #fff; line-height: normal;">{{ site.title_en }}</p>
+      <p style="color: #fff; line-height: 50%;">{{ site.description }}</p>
+      <div> 
+        <img src="{{ site.baseurl }}/images/email_icon.png" style="width:30px; height:30px;" align="left"/>
+        <span style="color: #fff; line-height: 20px;font-size: 18px;"> {{ site.footer-links.email }}</span>
+      </div>
+      
     </div>
     
     <hr>
