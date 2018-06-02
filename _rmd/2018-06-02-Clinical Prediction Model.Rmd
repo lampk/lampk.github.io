@@ -5,4 +5,4 @@ status: process
 published: true
 ---
 
-[Clinical Prediction Model](https://github.com/lampk/clinical_prediction_model/tree/master/_book/index.html)
+[Clinical Prediction Model]({{"/MyBook_clinical_prediction_model/index.html"}})
