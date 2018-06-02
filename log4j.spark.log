@@ -1,0 +1,260 @@
+16/10/14 11:43:42 INFO SparkContext: Running Spark version 2.0.1
+16/10/14 11:43:44 ERROR Shell: Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:379)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:394)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:387)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.security.SecurityUtil.getAuthenticationMethod(SecurityUtil.java:611)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:273)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:261)
+	at org.apache.hadoop.security.UserGroupInformation.loginUserFromSubject(UserGroupInformation.java:791)
+	at org.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:761)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:634)
+	at org.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2265)
+	at org.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2265)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2265)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:294)
+	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2275)
+	at org.apache.spark.SparkContext.getOrCreate(SparkContext.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sparklyr.Handler.handleMethodCall(handler.scala:124)
+	at sparklyr.Handler.channelRead0(handler.scala:69)
+	at sparklyr.Handler.channelRead0(handler.scala:15)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:111)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+16/10/14 11:43:45 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16/10/14 11:43:46 INFO SecurityManager: Changing view acls to: lampk
+16/10/14 11:43:46 INFO SecurityManager: Changing modify acls to: lampk
+16/10/14 11:43:46 INFO SecurityManager: Changing view acls groups to: 
+16/10/14 11:43:46 INFO SecurityManager: Changing modify acls groups to: 
+16/10/14 11:43:46 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(lampk); groups with view permissions: Set(); users  with modify permissions: Set(lampk); groups with modify permissions: Set()
+16/10/14 11:43:48 INFO Utils: Successfully started service 'sparkDriver' on port 52086.
+16/10/14 11:43:49 INFO SparkEnv: Registering MapOutputTracker
+16/10/14 11:43:49 INFO SparkEnv: Registering BlockManagerMaster
+16/10/14 11:43:49 INFO DiskBlockManager: Created local directory at C:\Users\lampk\AppData\Local\Temp\blockmgr-5e98b31f-0177-417a-9354-b256ad75c8da
+16/10/14 11:43:49 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+16/10/14 11:43:50 INFO SparkEnv: Registering OutputCommitCoordinator
+16/10/14 11:43:51 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+16/10/14 11:43:51 INFO SparkUI: Bound SparkUI to 127.0.0.1, and started at http://127.0.0.1:4040
+16/10/14 11:43:51 INFO SparkContext: Added JAR file:/C:/Users/lampk/.ivy2/jars/com.databricks_spark-csv_2.11-1.3.0.jar at spark://127.0.0.1:52086/jars/com.databricks_spark-csv_2.11-1.3.0.jar with timestamp 1476420231938
+16/10/14 11:43:51 INFO SparkContext: Added JAR file:/C:/Users/lampk/.ivy2/jars/org.apache.commons_commons-csv-1.1.jar at spark://127.0.0.1:52086/jars/org.apache.commons_commons-csv-1.1.jar with timestamp 1476420231938
+16/10/14 11:43:51 INFO SparkContext: Added JAR file:/C:/Users/lampk/.ivy2/jars/com.univocity_univocity-parsers-1.5.1.jar at spark://127.0.0.1:52086/jars/com.univocity_univocity-parsers-1.5.1.jar with timestamp 1476420231938
+16/10/14 11:43:51 INFO SparkContext: Added JAR file:/C:/Program%20Files/R/R-3.3.0/library/sparklyr/java/sparklyr-2.0-2.11.jar at spark://127.0.0.1:52086/jars/sparklyr-2.0-2.11.jar with timestamp 1476420231938
+16/10/14 11:43:51 WARN SparkContext: Using SPARK_MEM to set amount of memory to use per executor process is deprecated, please use spark.executor.memory instead.
+16/10/14 11:43:52 INFO Executor: Starting executor ID driver on host localhost
+16/10/14 11:43:53 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52129.
+16/10/14 11:43:53 INFO NettyBlockTransferService: Server created on 127.0.0.1:52129
+16/10/14 11:43:53 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 127.0.0.1, 52129)
+16/10/14 11:43:53 INFO BlockManagerMasterEndpoint: Registering block manager 127.0.0.1:52129 with 366.3 MB RAM, BlockManagerId(driver, 127.0.0.1, 52129)
+16/10/14 11:43:53 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 127.0.0.1, 52129)
+16/10/14 11:43:53 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+16/10/14 11:43:55 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+16/10/14 11:43:55 INFO HiveSharedState: spark.sql.warehouse.dir is not set, but hive.metastore.warehouse.dir is set. Setting spark.sql.warehouse.dir to the value of hive.metastore.warehouse.dir ('C:\Users\lampk\AppData\Local\rstudio\spark\Cache\spark-2.0.1-bin-hadoop2.7\tmp\hive').
+16/10/14 11:43:55 INFO HiveSharedState: Warehouse path is 'C:/Users/lampk/AppData/Local/rstudio/spark/Cache/spark-2.0.1-bin-hadoop2.7/tmp/hive'.
+16/10/14 11:43:57 INFO SparkSqlParser: Parsing command: SHOW TABLES
+16/10/14 11:43:58 INFO HiveUtils: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+16/10/14 11:44:01 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+16/10/14 11:44:01 INFO ObjectStore: ObjectStore, initialize called
+16/10/14 11:44:02 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+16/10/14 11:44:02 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+16/10/14 11:44:09 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+16/10/14 11:44:11 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:44:11 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:44:11 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:44:11 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:44:11 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+16/10/14 11:44:11 INFO ObjectStore: Initialized ObjectStore
+16/10/14 11:44:11 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+16/10/14 11:44:12 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+16/10/14 11:44:13 INFO HiveMetaStore: Added admin role in metastore
+16/10/14 11:44:13 INFO HiveMetaStore: Added public role in metastore
+16/10/14 11:44:13 INFO HiveMetaStore: No user is added in admin role, since config is empty
+16/10/14 11:44:14 INFO HiveMetaStore: 0: get_all_databases
+16/10/14 11:44:14 INFO audit: ugi=lampk	ip=unknown-ip-addr	cmd=get_all_databases	
+16/10/14 11:44:14 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+16/10/14 11:44:14 INFO audit: ugi=lampk	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+16/10/14 11:44:14 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:49:29 INFO SparkSqlParser: Parsing command: SHOW TABLES
+16/10/14 11:49:29 INFO HiveUtils: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+16/10/14 11:49:30 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+16/10/14 11:49:30 INFO ObjectStore: ObjectStore, initialize called
+16/10/14 11:49:30 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+16/10/14 11:49:30 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+16/10/14 11:49:30 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+16/10/14 11:49:31 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:49:31 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:49:32 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:49:32 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:49:32 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+16/10/14 11:49:32 INFO ObjectStore: Initialized ObjectStore
+16/10/14 11:49:32 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+16/10/14 11:49:32 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+16/10/14 11:49:32 INFO HiveMetaStore: Added admin role in metastore
+16/10/14 11:49:32 INFO HiveMetaStore: Added public role in metastore
+16/10/14 11:49:32 INFO HiveMetaStore: No user is added in admin role, since config is empty
+16/10/14 11:49:32 INFO HiveMetaStore: 0: get_all_databases
+16/10/14 11:49:32 INFO audit: ugi=lampk	ip=unknown-ip-addr	cmd=get_all_databases	
+16/10/14 11:49:32 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+16/10/14 11:49:32 INFO audit: ugi=lampk	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+16/10/14 11:49:32 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:55:59 INFO SparkSqlParser: Parsing command: SHOW TABLES
+16/10/14 11:55:59 INFO HiveUtils: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+16/10/14 11:56:00 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+16/10/14 11:56:00 INFO ObjectStore: ObjectStore, initialize called
+16/10/14 11:56:00 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+16/10/14 11:56:00 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+16/10/14 11:56:01 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+16/10/14 11:56:01 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:56:01 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:56:02 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:56:02 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:56:02 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+16/10/14 11:56:02 INFO ObjectStore: Initialized ObjectStore
+16/10/14 11:56:02 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+16/10/14 11:56:02 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+16/10/14 11:56:02 INFO HiveMetaStore: Added admin role in metastore
+16/10/14 11:56:02 INFO HiveMetaStore: Added public role in metastore
+16/10/14 11:56:02 INFO HiveMetaStore: No user is added in admin role, since config is empty
+16/10/14 11:56:02 INFO HiveMetaStore: 0: get_all_databases
+16/10/14 11:56:02 INFO audit: ugi=lampk	ip=unknown-ip-addr	cmd=get_all_databases	
+16/10/14 11:56:02 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+16/10/14 11:56:02 INFO audit: ugi=lampk	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+16/10/14 11:56:02 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:56:59 INFO SparkContext: Invoking stop() from shutdown hook
+16/10/14 11:56:59 INFO SparkUI: Stopped Spark web UI at http://127.0.0.1:4040
+16/10/14 11:56:59 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+16/10/14 11:57:00 INFO MemoryStore: MemoryStore cleared
+16/10/14 11:57:00 INFO BlockManager: BlockManager stopped
+16/10/14 11:57:00 INFO BlockManagerMaster: BlockManagerMaster stopped
+16/10/14 11:57:00 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+16/10/14 11:57:00 INFO SparkContext: Successfully stopped SparkContext
+16/10/14 11:57:00 INFO ShutdownHookManager: Shutdown hook called
+16/10/14 11:57:00 INFO ShutdownHookManager: Deleting directory C:\Users\lampk\AppData\Local\Temp\spark-c7a0c03a-31b6-46f0-81b0-7c150179d148
+16/10/14 11:57:38 INFO SparkContext: Running Spark version 2.0.1
+16/10/14 11:57:39 ERROR Shell: Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:379)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:394)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:387)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.security.SecurityUtil.getAuthenticationMethod(SecurityUtil.java:611)
+	at org.apache.hadoop.security.UserGroupInformation.initialize(UserGroupInformation.java:273)
+	at org.apache.hadoop.security.UserGroupInformation.ensureInitialized(UserGroupInformation.java:261)
+	at org.apache.hadoop.security.UserGroupInformation.loginUserFromSubject(UserGroupInformation.java:791)
+	at org.apache.hadoop.security.UserGroupInformation.getLoginUser(UserGroupInformation.java:761)
+	at org.apache.hadoop.security.UserGroupInformation.getCurrentUser(UserGroupInformation.java:634)
+	at org.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2265)
+	at org.apache.spark.util.Utils$$anonfun$getCurrentUserName$1.apply(Utils.scala:2265)
+	at scala.Option.getOrElse(Option.scala:121)
+	at org.apache.spark.util.Utils$.getCurrentUserName(Utils.scala:2265)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:294)
+	at org.apache.spark.SparkContext$.getOrCreate(SparkContext.scala:2275)
+	at org.apache.spark.SparkContext.getOrCreate(SparkContext.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sparklyr.Handler.handleMethodCall(handler.scala:124)
+	at sparklyr.Handler.channelRead0(handler.scala:69)
+	at sparklyr.Handler.channelRead0(handler.scala:15)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:105)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:244)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:308)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:294)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:111)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:137)
+	at java.lang.Thread.run(Unknown Source)
+16/10/14 11:57:39 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+16/10/14 11:57:40 INFO SecurityManager: Changing view acls to: lampk
+16/10/14 11:57:40 INFO SecurityManager: Changing modify acls to: lampk
+16/10/14 11:57:40 INFO SecurityManager: Changing view acls groups to: 
+16/10/14 11:57:40 INFO SecurityManager: Changing modify acls groups to: 
+16/10/14 11:57:40 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(lampk); groups with view permissions: Set(); users  with modify permissions: Set(lampk); groups with modify permissions: Set()
+16/10/14 11:57:40 INFO Utils: Successfully started service 'sparkDriver' on port 52409.
+16/10/14 11:57:40 INFO SparkEnv: Registering MapOutputTracker
+16/10/14 11:57:40 INFO SparkEnv: Registering BlockManagerMaster
+16/10/14 11:57:40 INFO DiskBlockManager: Created local directory at C:\Users\lampk\AppData\Local\Temp\blockmgr-63a11c1b-6358-4912-a144-6102d4c071a2
+16/10/14 11:57:41 INFO MemoryStore: MemoryStore started with capacity 366.3 MB
+16/10/14 11:57:41 INFO SparkEnv: Registering OutputCommitCoordinator
+16/10/14 11:57:41 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+16/10/14 11:57:41 INFO SparkUI: Bound SparkUI to 127.0.0.1, and started at http://127.0.0.1:4040
+16/10/14 11:57:41 INFO SparkContext: Added JAR file:/C:/Users/lampk/.ivy2/jars/com.databricks_spark-csv_2.11-1.3.0.jar at spark://127.0.0.1:52409/jars/com.databricks_spark-csv_2.11-1.3.0.jar with timestamp 1476421061283
+16/10/14 11:57:41 INFO SparkContext: Added JAR file:/C:/Users/lampk/.ivy2/jars/org.apache.commons_commons-csv-1.1.jar at spark://127.0.0.1:52409/jars/org.apache.commons_commons-csv-1.1.jar with timestamp 1476421061284
+16/10/14 11:57:41 INFO SparkContext: Added JAR file:/C:/Users/lampk/.ivy2/jars/com.univocity_univocity-parsers-1.5.1.jar at spark://127.0.0.1:52409/jars/com.univocity_univocity-parsers-1.5.1.jar with timestamp 1476421061284
+16/10/14 11:57:41 INFO SparkContext: Added JAR file:/C:/Program%20Files/R/R-3.3.0/library/sparklyr/java/sparklyr-2.0-2.11.jar at spark://127.0.0.1:52409/jars/sparklyr-2.0-2.11.jar with timestamp 1476421061284
+16/10/14 11:57:41 WARN SparkContext: Using SPARK_MEM to set amount of memory to use per executor process is deprecated, please use spark.executor.memory instead.
+16/10/14 11:57:41 INFO Executor: Starting executor ID driver on host localhost
+16/10/14 11:57:41 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52450.
+16/10/14 11:57:41 INFO NettyBlockTransferService: Server created on 127.0.0.1:52450
+16/10/14 11:57:41 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 127.0.0.1, 52450)
+16/10/14 11:57:41 INFO BlockManagerMasterEndpoint: Registering block manager 127.0.0.1:52450 with 366.3 MB RAM, BlockManagerId(driver, 127.0.0.1, 52450)
+16/10/14 11:57:41 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 127.0.0.1, 52450)
+16/10/14 11:57:41 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+16/10/14 11:57:41 WARN SparkContext: Use an existing SparkContext, some configuration may not take effect.
+16/10/14 11:57:42 INFO HiveSharedState: spark.sql.warehouse.dir is not set, but hive.metastore.warehouse.dir is set. Setting spark.sql.warehouse.dir to the value of hive.metastore.warehouse.dir ('C:\Users\lampk\AppData\Local\rstudio\spark\Cache\spark-2.0.1-bin-hadoop2.7\tmp\hive').
+16/10/14 11:57:42 INFO HiveSharedState: Warehouse path is 'C:/Users/lampk/AppData/Local/rstudio/spark/Cache/spark-2.0.1-bin-hadoop2.7/tmp/hive'.
+16/10/14 11:57:57 INFO SparkSqlParser: Parsing command: SHOW TABLES
+16/10/14 11:57:58 INFO HiveUtils: Initializing HiveMetastoreConnection version 1.2.1 using Spark classes.
+16/10/14 11:57:58 INFO HiveMetaStore: 0: Opening raw store with implemenation class:org.apache.hadoop.hive.metastore.ObjectStore
+16/10/14 11:57:58 INFO ObjectStore: ObjectStore, initialize called
+16/10/14 11:57:58 INFO Persistence: Property hive.metastore.integral.jdo.pushdown unknown - will be ignored
+16/10/14 11:57:58 INFO Persistence: Property datanucleus.cache.level2 unknown - will be ignored
+16/10/14 11:57:59 INFO ObjectStore: Setting MetaStore object pin classes with hive.metastore.cache.pinobjtypes="Table,StorageDescriptor,SerDeInfo,Partition,Database,Type,FieldSchema,Order"
+16/10/14 11:58:00 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:58:00 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:58:01 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MFieldSchema" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:58:01 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MOrder" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 11:58:01 INFO MetaStoreDirectSql: Using direct SQL, underlying DB is DERBY
+16/10/14 11:58:01 INFO ObjectStore: Initialized ObjectStore
+16/10/14 11:58:01 WARN ObjectStore: Version information not found in metastore. hive.metastore.schema.verification is not enabled so recording the schema version 1.2.0
+16/10/14 11:58:01 WARN ObjectStore: Failed to get database default, returning NoSuchObjectException
+16/10/14 11:58:01 INFO HiveMetaStore: Added admin role in metastore
+16/10/14 11:58:01 INFO HiveMetaStore: Added public role in metastore
+16/10/14 11:58:01 INFO HiveMetaStore: No user is added in admin role, since config is empty
+16/10/14 11:58:01 INFO HiveMetaStore: 0: get_all_databases
+16/10/14 11:58:01 INFO audit: ugi=lampk	ip=unknown-ip-addr	cmd=get_all_databases	
+16/10/14 11:58:01 INFO HiveMetaStore: 0: get_functions: db=default pat=*
+16/10/14 11:58:01 INFO audit: ugi=lampk	ip=unknown-ip-addr	cmd=get_functions: db=default pat=*	
+16/10/14 11:58:01 INFO Datastore: The class "org.apache.hadoop.hive.metastore.model.MResourceUri" is tagged as "embedded-only" so does not have its own datastore table.
+16/10/14 13:25:20 INFO SparkContext: Invoking stop() from shutdown hook
+16/10/14 13:25:21 INFO SparkUI: Stopped Spark web UI at http://127.0.0.1:4040
+16/10/14 13:25:23 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+16/10/14 13:25:24 INFO MemoryStore: MemoryStore cleared
+16/10/14 13:25:24 INFO BlockManager: BlockManager stopped
+16/10/14 13:25:24 INFO BlockManagerMaster: BlockManagerMaster stopped
+16/10/14 13:25:25 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+16/10/14 13:25:25 INFO SparkContext: Successfully stopped SparkContext
+16/10/14 13:25:25 INFO ShutdownHookManager: Shutdown hook called
+16/10/14 13:25:25 INFO ShutdownHookManager: Deleting directory C:\Users\lampk\AppData\Local\Temp\spark-36798288-ce62-4a57-877c-80b724294fb7

@@ -1,0 +1,61 @@
+---
+layout: post
+title: Set up GitHub repository and its website with RStudio
+status: wait
+published: false
+---
+
+## Relation between variable X and outcome Y
+"Smoke can cause lung cancer"
+"Carrying a lighter is associated with lung cancer"
+
+## Types of analysis
+* Exploration: association
+* Prediction: predictor
+* Explanation: effect
+
+## Ronald's opinion
+* Most observational studies are explorative in nature --> validity & interpretation of p values from such studies are unclear
+* Most significant results from observational studies are false
+
+--> Evidence: Ioannidis (2005) Contradicted and Initially Stronger effects in highly cited clinical research. JAMA
+              Ioannidis (2005) Why Most Published Research Findings Are False. Plos Medicine
+              
+--> Reasons:
+* Fraud (ask Ronald for the name)
+* Quality of data (accuracy of measurement, errors in data, sample size)
+* Ignorance (incorrect stat method, ignore confounding/bias)
+* Unavoidable elements of quantitative analysis (p value, problems with hypothesis testing)
+
+## Exploratory research
+* Find *most important* risk factors for the outcome
+    + association rather than effect
+    + variable are usually selected based on some stepwise algorithm
+
+## Prediction research
+
+## Explanatory research
+* Important concepts
+    + confounding
+    + selection bias, colliders
+    + mediation, intermediate variables
+    
+## DAG (Directed Acyclic Graphs)
+* Hernan (2004)
+    + Confounder: always correct for it
+    + Intermediate: depends on study question:
+        - Interested in mechanism: include
+        - Interested in overal: not include
+    + Collider: never correct for it (introduce bias)
+    
+* Problem with 2-way direction?
+    + have common cause so cannot determine the exact direction?
+    + same variable but measured in two different times
+    
+## Correction for confounder
+* g-estimation (standardization)
+* inverse probability weighting
+
+## Berkson's paradox
+
+
