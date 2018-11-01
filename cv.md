@@ -34,7 +34,7 @@ permalink: /cv/
 * [Information on OUCRU's website](http://www.oucru.org/dr-phung-khanh-lam/)
 
 ### Publications
-* [PubMed profile](http://www.ncbi.nlm.nih.gov/pubmed/?term=Lam+Phung+Khanh%5BAuthor%5D+OR+Phung+Lam+Khanh%5BAuthor%5D) 
+* [PubMed profile](https://www.ncbi.nlm.nih.gov/pubmed/?term=Lam+Phung+Khanh%5BAuthor%5D+OR+Phung+Lam+Khanh%5BAuthor%5D+OR+Phung+KL%5BAuthor%5D+OR+Khanh+Lam+P%5BAuthor%5D) 
 * [Google scholar profile](https://scholar.google.com.vn/citations?user=sLksiNsAAAAJ&hl=en)
 
 ### Presentations
