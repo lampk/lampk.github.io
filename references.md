@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Links
-permalink: /links/
+permalink: /references/
 ---
 
 ## Useful links to science and stat/R
@@ -29,5 +29,3 @@ permalink: /links/
 * [Jer Thorp: Make data more human](http://www.ted.com/talks/jer_thorp_make_data_more_human)
 * [David Mccandless: The beauty of data visualization](http://www.ted.com/talks/david_mccandless_the_beauty_of_data_visualization)
 * [R Luke Dubois: Insightful human portraits made from data](http://www.ted.com/talks/r_luke_dubois_insightful_human_portraits_made_from_data)
-
-
