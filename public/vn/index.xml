@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phùng Khánh Lâm</title>
+    <link>/vn/</link>
+    <description>Recent content on Phùng Khánh Lâm</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>vn</language>
+    <lastBuildDate>Tue, 30 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/vn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Misc</title>
+      <link>/vn/posts/misc/</link>
+      <pubDate>Tue, 30 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/vn/posts/misc/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>CoderPortfolioの特徴</title>
+      <link>/vn/posts/featuresofcoderportfolio/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/vn/posts/featuresofcoderportfolio/</guid>
+      <description>変更点 ShortCode &amp;ldquo;private content&amp;rdquo;を追加しました 綺麗なサイトを崩さずに、あなたの個人的なコンテンツ（趣味や感情）を簡単に伝えることができます。
+実際の動きについては、&amp;rdquo;テーマデモ&amp;rdquo;をご覧ください。
+リンクに赤い下線のアニメーションを追加しました サイトがよりカラフルに美しくなりました。
+SNSシェアのボタンを追加しました あなたの記事がより影響力を持つようになりました。
+コードのハイライトを変更しました 日本のサービス Qiita のハイライトを参照しました。
+とても優しく美しいハイライトです。
+ヘッダーに影を追加しました より境界線がはっきりしました。
+ShortCode &amp;ldquo;portfolio&amp;rdquo;を追加しました あなたの作品を綺麗に表示できるようになりました。 実際の動きについては、&amp;rdquo;テーマデモ&amp;rdquo;をご覧ください。</description>
+    </item>
+    
+    <item>
+      <title>テーマデモ</title>
+      <link>/vn/posts/theme-demo/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/vn/posts/theme-demo/</guid>
+      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/vn/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vn/contact/</guid>
+      <description> Email  phungkhanhlam@gmail.com lampk.orientrcu@gmail.com lampk@oucru.org  </description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/vn/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vn/cv/</guid>
+      <description> Contact information  Personal email: phungkhanhlam@gmail.com Work email: lampk@oucru.org Homepage: http://lampk.github.io  Research of Interest  Prognostic research Longitudinal data analysis Data manipulation and exploratory data analysis  Education Background  2003 - 2009: Doctor of Medicine, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Viet Nam 2011 - 2015: PhD in Life and Biomolecular Sciences (Biostatistics), The Open University, UK  Awards &amp;amp; Fellowships  2011: Erasmus Summer Programme Fellowship from Netherlands Institute for Health Science  Skills &amp;amp; Activities  Skills: Critical Care Medicine, Statistical Modeling, Data Analysis, Dengue, Phase III Clinical Trial, Prognosis, Prognostic Markers, Applied Biostatistics, Diagnosis, R Programming Language: Vietnamese, English Scientific Memberships: International Society for Clinical Biostatistics (2014 - 2015) Peer-review: Plos Neglected Tropical Diseases, Plos One, Scientific Reports, The American Journal of Tropical Medicine and Hygiene  Academic CV  ORCID SciENcv ResearchGate profile Information on OUCRU&amp;rsquo;s website  Publications  PubMed profile Google scholar profile  Presentations  2018  Prediction models for severe dengue: findings from the IDAMS study, Oxford Tropical Network Meeting, March 2018, Ho Chi Minh City (Vietnam), Oral  2016  Predictors for severe dengue – results from a prospective multi-centre study in 8 countries across Asia and Latin America, The American Society of Tropical Medicine and Hygiene’s 65th Annual Meeting, Atlanta (USA), November 2016, Oral  2015  Prognostic models for development of dengue shock syndrome (DSS) amongst hospitalized children with dengue, 2015 Oxford Tropical Network Meeting, Siem Reap (Cambodia), March 2015, Poster  2014  Haematocrit (HCT) &amp;amp; Platelet (PLT) in predicting severe dengue, OUCRU dengue lab meeting, Ho Chi Minh City (Vietnam), October 2014, Oral Developing dynamic prediction models for acute diseases, International Society for Clinical Biostatistics 35th Annual Conference, Vienna (Austria), August 2014, Oral Prognostic Models in Dengue, Hospital for Tropical Diseases Academic meeting, Ho Chi Minh City (Vietnam), July 2014, Oral  2013  Dengue shock syndrome in children: a prognostic model for profound shock, 2nd International Dengue Therapeutics Workshop, Ho Chi Minh City (Vietnam), December 2013, Oral Prognostic models in dengue, OUCRU Modeling and Statistic Technical Meeting, Ho Chi Minh City (Vietnam), September 2013, Oral Dengue shock syndrome in children: clinical features and a prognostic model for profound shock, 8th European Congress on Tropical Medicine and International Health, Copenhagen (Denmark), September 2013, Oral Prognostic modeling in medicine: a case study, Statistics &amp;amp; its Interactions with Other Disciplines, Ho Chi Minh City (Vietnam), June 2013, Oral Dynamic prognostic models: a snapshot, OUCRU Academic meeting, Ho Chi Minh City (Vietnam), February 2013, Oral  2012  Dynamic prognostic models in dengue, OUCRU dengue lab meeting, Ho Chi Minh City (Vietnam), November 2012, Oral   </description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/vn/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vn/resources/</guid>
+      <description> Useful links to science and stat/R  Oxford University Clinical Research Unit CRAN RStudio ggplot Hadley Wickham&amp;rsquo;s website RStudio and GitHub R: Retrieving information from google using the RCurl package Scraping web data in R Using Google Analytics with R  Links to science blogs  Scientific American Spectrum: The leading source of news and expert opinion on autism research UNESCO science popularization SOI  Links to TED talks about statistics and art  Chris Jordan: Turning powerful stats into art Jer Thorp: Make data more human David Mccandless: The beauty of data visualization R Luke Dubois: Insightful human portraits made from data  </description>
+    </item>
+    
+    <item>
+      <title>Về tôi</title>
+      <link>/vn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/vn/about/</guid>
+      <description>After finished my 6-year diploma in general medicine at the University of Medicine and Pharmacy of Ho Chi Minh City in 2009, I decided to apply for a research assistant position in biostatistics at the Oxford University Clinical Research Unit Vietnam (OUCRU-VN) to pursue my great interest in biostatistics. From 2011 to 2015, I worked on my PhD project titled ‘Prognostic Models in Dengue’ under the supervision of Dr Marcel Wolbers from the Biostatistics group, Prof Bridget Wills and Prof Cameron Simmons from the Dengue group.</description>
+    </item>
+    
+  </channel>
+</rss>

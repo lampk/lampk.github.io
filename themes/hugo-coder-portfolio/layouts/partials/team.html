@@ -1,0 +1,76 @@
+<section class="container team">
+
+<div class="my-tabs-container">
+  <ul class="fh5co-tabs fh5co-four">
+    <li class="active"><a href="#" data-tab=founder> {{ .Site.Params.founder.title | markdownify }}</a></li>
+    <li><a href="#" data-tab=team2>{{ .Site.Params.team2.title | markdownify }}</a></li>
+    <li><a href="#" data-tab=advisor>{{ .Site.Params.advisor.title | markdownify }}</a></li>
+    <li><a href="#" data-tab=aff>{{ .Site.Params.aff.title | markdownify }}</a></li>
+  </ul>
+        	
+  <div class="fh5co-tab-content active" data-tab-content=founder>
+    <h2>{{ .Site.Params.founder.subtitle | markdownify }}</h2>
+    <p>{{ .Site.Params.founder.description | markdownify }}</p>
+    
+    {{ range sort .Site.Params.founder.item "firstname" }}
+    <div class="col-md-3">
+      <div class="person">
+        <img src="{{ .img | absURL }}" alt="" class="img-responsive">
+        <h3>{{ .name }}</h3>
+        <h4>{{ .position }}</h4>
+	      <p>{{ .description | markdownify }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="fh5co-tab-content" data-tab-content=team2>
+    <h2>{{ .Site.Params.team2.subtitle | markdownify }}</h2>
+    <p>{{ .Site.Params.team2.description | markdownify }}</p>
+    
+    {{ range sort .Site.Params.team2.item "firstname" }}
+    <div class="col-md-3">
+      <div class="person">
+	       <img src="{{ .img | absURL }}" alt="" class="img-responsive">
+	       <h3>{{ .name }}</h3>
+	       <h5>{{ .position }}</h5>
+	    </div>
+    </div>
+    {{ end }}
+  </div>
+    	
+  <div class="fh5co-tab-content" data-tab-content=advisor>
+    <h2>{{ .Site.Params.advisor.subtitle | markdownify }}</h2>
+    <p>{{ .Site.Params.advisor.description | markdownify }}</p>
+    
+    {{ range sort .Site.Params.advisor.item "firstname" }}
+    <div class="col-md-3">
+      <div class="person">
+	       <img src="{{ .img | absURL }}" alt="" class="img-responsive">
+	       <h3>{{ .name }}</h3>
+	       <h4>{{ .position }}</h4>
+	       <p>{{ .description | markdownify }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+        
+  <div class="fh5co-tab-content" data-tab-content=aff>
+    <h2>{{ .Site.Params.aff.subtitle | markdownify }}</h2>
+    <p>{{ .Site.Params.aff.description | markdownify }}</p>
+    
+    {{ range sort .Site.Params.aff.item "firstname" }}
+    <div class="col-md-3">
+      <div class="person">
+	       <img src="{{ .img | absURL }}" alt="" class="img-responsive">
+	       <h3>{{ .name }}</h3>
+	       <h4>{{ .position }}</h4>
+	       <p>{{ .degree | markdownify }}</p>
+	       <h5>{{ .description | markdownify }}</h5>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+  
+</div>
+</section>

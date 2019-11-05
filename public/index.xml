@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Phung Khanh Lam&#39;s website</title>
+    <link>/</link>
+    <description>Recent content on Phung Khanh Lam&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Features Of CoderPortfolio</title>
+      <link>/posts/featuresofcoderportfolio/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/featuresofcoderportfolio/</guid>
+      <description>Change Point &amp;ldquo;private content&amp;rdquo; short code added. It is now possible to communicate your personal hobby and your own content.
+You can use it easily. Please see &amp;ldquo;theme-demo&amp;rdquo; for details and demo.
+An animation of red underline was added to Anchor. The site became a little fun and colorful.
+The button of the SNS share was added. It became to have an influence when writing articles more.
+Changed the color scheme of code highlight.</description>
+    </item>
+    
+    <item>
+      <title>Theme Demo</title>
+      <link>/posts/theme-demo/</link>
+      <pubDate>Fri, 03 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/theme-demo/</guid>
+      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading This is bold text
+This is bold text
+This is italic text
+This is italic text
+Deleted text
+This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
+$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
+   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>/posts/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>/posts/hugo-template-primer/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hugo-template-primer/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>/posts/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at installing hugo
+Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
+Follow the following steps:
+ Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>/posts/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
+▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
+▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>After finished my 6-year diploma in general medicine at the University of Medicine and Pharmacy of Ho Chi Minh City in 2009, I decided to apply for a research assistant position in biostatistics at the Oxford University Clinical Research Unit Vietnam (OUCRU-VN) to pursue my great interest in biostatistics. From 2011 to 2015, I worked on my PhD project titled ‘Prognostic Models in Dengue’ under the supervision of Dr Marcel Wolbers from the Biostatistics group, Prof Bridget Wills and Prof Cameron Simmons from the Dengue group.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description> Email  phungkhanhlam@gmail.com lampk.orientrcu@gmail.com lampk@oucru.org  </description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cv/</guid>
+      <description> Contact information  Personal email: phungkhanhlam@gmail.com Work email: lampk@oucru.org Homepage: http://lampk.github.io  Research of Interest  Prognostic research Longitudinal data analysis Data manipulation and exploratory data analysis  Education Background  2003 - 2009: Doctor of Medicine, University of Medicine and Pharmacy at Ho Chi Minh City, Ho Chi Minh City, Viet Nam 2011 - 2015: PhD in Life and Biomolecular Sciences (Biostatistics), The Open University, UK  Awards &amp;amp; Fellowships  2011: Erasmus Summer Programme Fellowship from Netherlands Institute for Health Science  Skills &amp;amp; Activities  Skills: Critical Care Medicine, Statistical Modeling, Data Analysis, Dengue, Phase III Clinical Trial, Prognosis, Prognostic Markers, Applied Biostatistics, Diagnosis, R Programming Language: Vietnamese, English Scientific Memberships: International Society for Clinical Biostatistics (2014 - 2015) Peer-review: Plos Neglected Tropical Diseases, Plos One, Scientific Reports, The American Journal of Tropical Medicine and Hygiene  Academic CV  ORCID SciENcv ResearchGate profile Information on OUCRU&amp;rsquo;s website  Publications  PubMed profile Google scholar profile  Presentations  2018  Prediction models for severe dengue: findings from the IDAMS study, Oxford Tropical Network Meeting, March 2018, Ho Chi Minh City (Vietnam), Oral  2016  Predictors for severe dengue – results from a prospective multi-centre study in 8 countries across Asia and Latin America, The American Society of Tropical Medicine and Hygiene’s 65th Annual Meeting, Atlanta (USA), November 2016, Oral  2015  Prognostic models for development of dengue shock syndrome (DSS) amongst hospitalized children with dengue, 2015 Oxford Tropical Network Meeting, Siem Reap (Cambodia), March 2015, Poster  2014  Haematocrit (HCT) &amp;amp; Platelet (PLT) in predicting severe dengue, OUCRU dengue lab meeting, Ho Chi Minh City (Vietnam), October 2014, Oral Developing dynamic prediction models for acute diseases, International Society for Clinical Biostatistics 35th Annual Conference, Vienna (Austria), August 2014, Oral Prognostic Models in Dengue, Hospital for Tropical Diseases Academic meeting, Ho Chi Minh City (Vietnam), July 2014, Oral  2013  Dengue shock syndrome in children: a prognostic model for profound shock, 2nd International Dengue Therapeutics Workshop, Ho Chi Minh City (Vietnam), December 2013, Oral Prognostic models in dengue, OUCRU Modeling and Statistic Technical Meeting, Ho Chi Minh City (Vietnam), September 2013, Oral Dengue shock syndrome in children: clinical features and a prognostic model for profound shock, 8th European Congress on Tropical Medicine and International Health, Copenhagen (Denmark), September 2013, Oral Prognostic modeling in medicine: a case study, Statistics &amp;amp; its Interactions with Other Disciplines, Ho Chi Minh City (Vietnam), June 2013, Oral Dynamic prognostic models: a snapshot, OUCRU Academic meeting, Ho Chi Minh City (Vietnam), February 2013, Oral  2012  Dynamic prognostic models in dengue, OUCRU dengue lab meeting, Ho Chi Minh City (Vietnam), November 2012, Oral   </description>
+    </item>
+    
+    <item>
+      <title>Resources</title>
+      <link>/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/</guid>
+      <description> Useful links to science and stat/R  Oxford University Clinical Research Unit CRAN RStudio ggplot Hadley Wickham&amp;rsquo;s website RStudio and GitHub R: Retrieving information from google using the RCurl package Scraping web data in R Using Google Analytics with R  Links to science blogs  Scientific American Spectrum: The leading source of news and expert opinion on autism research UNESCO science popularization SOI  Links to TED talks about statistics and art  Chris Jordan: Turning powerful stats into art Jer Thorp: Make data more human David Mccandless: The beauty of data visualization R Luke Dubois: Insightful human portraits made from data  </description>
+    </item>
+    
+  </channel>
+</rss>

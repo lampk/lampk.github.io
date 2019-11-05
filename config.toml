@@ -1,0 +1,155 @@
+url = "http://lampk.github.io"
+baseurl = ""
+title = "Phung Khanh Lam"
+
+theme = "hugo-coder-portfolio"
+
+DefaultContentLanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "b2"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsUseClasses = true
+
+disqusShortname = ""
+
+google_analytics = "UA-65383716-1"
+
+[params]
+    author = "Phung Khanh Lam"
+    description = "Phung Khanh Lam"
+    keywords = ""
+    info = "Scientist"
+    avatarurl = "images/lampk2.jpg"
+    dateformat = "2006-01-02"
+
+    hideCredits = false
+    hideCopyright = false
+
+    # Bottom sns share
+    snsShare = true
+    # Popular sns share
+    # if you want add sns. please message!
+    enableTwitterShare = true
+    enableFacebookShare = true
+    enableHatenaShare = false
+    enableLineShare = false
+
+    thumbnail = "images/tn.png"
+
+    # Custom CSS
+    custom_css = ["css/mystyle.css"]
+
+    # Alignment of Mobile Menu items
+    itemscentered = true
+
+    # RTL support
+    rtl = false
+
+    langseparator = "|"
+
+[[params.social]]
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 1
+    url = "https://www.facebook.com/phung.k.lam"
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter"
+    weight = 2
+    url = "https://twitter.com/LamPhungKhanh"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 3
+    url = "https://github.com/lampk/"
+
+
+
+[languages]
+    [languages.en]
+        languagecode = "en"
+        languagename = "English" 
+        title = "Phung Khanh Lam"
+
+        # You can configure the theme parameter for each language.
+        [languages.en.params]
+            author = "Phung Khanh Lam"
+            description = "Phung Khanh Lam's website"
+            keywords = ""
+            info = "Scientist"
+            avatarurl = "images/lampk2.jpg"
+            by = "By"
+            footercontent = "All Rights Reserved by Phung Khanh Lam"
+            fixedbarContent = "Thank You! Please share if you like it"
+            fixedbarContentAfter = ""
+
+        [languages.en.menu] # It is possible to change the menu too.
+
+            [[languages.en.menu.main]]
+                name = "About"
+                weight = 1
+                url = "about"
+
+            [[languages.en.menu.main]]
+                name = "Blog"
+                weight = 3
+                url = "posts"
+
+            [[languages.en.menu.main]]
+                name = "CV"
+                weight = 2
+                url = "cv"
+                
+            [[languages.en.menu.main]]
+                name = "Resources"
+                weight = 4
+                url = "resources"
+                
+            [[languages.en.menu.main]]
+                name = "Contact"
+                weight = 5
+                url = "contact"
+
+
+    [languages.vn]
+        languagecode = "vn"
+        languagename = "Tiếng Việt"
+        title = "Phùng Khánh Lâm"
+
+        [languages.vn.params]
+            author = "Phùng Khánh Lâm"
+            info = "MD, PhD"
+            description = "Nhà khoa học"
+            keywords = ""
+            avatarurl = "images/lampk2.jpg"
+            by = "Viết bởi"
+            footercontent = "Bản quyền thuộc Phùng Khánh Lâm"
+            fixedbarContent = "Cám ơn bạn! Hãy chia sẻ nếu bạn thích nội dung này"
+            fixedbarContentAfter = ""
+
+        [languages.vn.menu]
+            [[languages.vn.menu.main]]
+                name = "Về tôi"
+                weight = 1
+                url = "vn/about"
+            [[languages.vn.menu.main]]
+                name = "Blog"
+                weight = 3
+                url = "vn/posts"
+            [[languages.vn.menu.main]]
+                name = "CV"
+                weight = 2
+                url = "vn/cv"
+            [[languages.vn.menu.main]]
+                name = "Tài liệu"
+                weight = 4
+                url = "vn/resources"
+            [[languages.vn.menu.main]]
+                name = "Liên hệ"
+                weight = 5
+                url = "vn/contact"
+                
+
